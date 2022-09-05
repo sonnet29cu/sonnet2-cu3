@@ -1,0 +1,431 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+text-decoration: none;
+outline: 0;
+font-family: 'Titillium Web', sans-serif; ;
+}
+Section{
+   padding: 100px 0px;
+}
+.Global-Heading{
+font-size: 35px;
+letter-spacing: 5px;
+font-weight: 600;
+padding: 10px;
+}
+.underline{
+border-top: 5px solid rgba(0, 0, 0, 0.137);
+width: 7%;
+margin: auto;
+padding: 10px;
+}
+header {
+width: 100%;
+float: left;
+background-color:#87509c ;
+color: #fff;
+}
+.Container {
+   width: 85%;
+   margin: auto;
+padding: 10px 0px;
+}
+.navigation-part {
+width: 100%;
+float: left;
+padding: 10px 0px;
+}
+.logo-part {
+width: 50%;
+float: left;
+}
+.menu-part {
+width: 50%;
+float: left;
+padding: 10px 0px;
+}
+.menu-part li {
+display: inline-block;
+margin: 0px 10px;
+padding: 7px;
+border-radius: 5px;
+}
+.menu-part li:hover {
+   background-color: rgba(0, 0, 0, 0.253);
+}
+.menu-part a {
+font-size: 17px;
+font-weight: 600;
+text-transform: uppercase;
+color: #fff;
+}
+.hero-part {
+width: 100;
+float: left;
+text-align: center;
+margin: 100px 0px;
+}
+.hero-part h1 {
+   width: 70%;
+   margin: auto;
+   font-size: 35px;
+   font-weight: 600;
+   padding: 10px 0px;
+}
+.hero-part a button {
+width: 20%;
+margin-top: 20px;
+padding: 20px;
+background-color: #eb7d4b;
+color: #fff;
+border-radius: 3px;
+}
+.hero-part a button:hover {
+   box-shadow: 2px 2px 5px rgb(240, 236, 235);
+}
+
+
+
+
+
+#Service{
+   width: 100%;
+   float: left;
+   background-color: #17c2a4;
+   color: #fff;
+   text-align: center;
+}
+.Service-writing-part{
+width: 100%;
+float: left;
+}
+.Service-box-part{
+width: 100%;
+float: left;
+margin-top: 50px;
+}
+.Service-box{
+width: 25%;
+float: left;
+}
+
+
+
+
+
+#Team{
+   width: 100%;
+   float: left;
+   text-align: center;
+   background-color: #e7f1f8;
+   color:#3c4761;
+}
+.Team-writing-part{
+width: 100%;
+float: left;
+}
+.Team-box-part{
+   width: 100%;
+   float: left;
+   margin-top: 50px;
+}
+.Team-box img{
+border-radius: 50%;
+width: 150px;
+height: 150px;
+}
+.Team-box p{
+margin: 15px 0px;
+}
+.Team-box{
+   width: 25%;
+float: left;
+padding: 10px;
+}
+.team-title{
+color:#b6e2f3 ;
+font-size: 16px;
+font-weight: 400;
+}
+.team-icon i{
+background-color:#bdd1df ;
+color: #fff;
+padding: 10px;
+border-radius: 50px;
+width: 35px;
+margin: 5px;
+}
+
+
+
+
+
+
+#skill{
+width: 100%;
+float: left;
+}
+.skill-writing-part{
+   width: 100%;
+   float: left;
+   text-align: center;
+   padding: 30px 0px;
+   color:#9da1abf5 ;
+   margin-top: 45px;
+}
+.skill-box-part {
+   width: 100%;
+   float: left;
+   margin: 80px;
+}
+.skill-box {
+float: left;
+margin: auto;
+text-align: center;
+}
+.skill-box img{
+width: 150px; 
+height: 150px;
+}
+.skill-heading{
+   width: 100%;
+   float: left;
+   color: #999fac;
+   padding: 15px 0px;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+
+
+
+
+#PORTFOLIO{
+   width: 100%;
+   float: left;
+   background-color:#ffdd99;
+   color: #393939;
+   text-align: center;
+}
+.portfolio-menu-part{
+width: 100%;
+float: left;
+}
+.portfolio-menu-part li{
+width: 110px;
+display: inline-block;
+padding: 7px;
+margin: 45px 5px;
+background-color:#ebc985 ;
+border-radius: 5px;
+}
+.portfolio-menu-part li:hover{
+background-color: #fff;
+}
+.portfolio-menu-part a{
+font-size: 17px;
+font-weight: 600;
+text-transform: uppercase;
+color:#888888 ;
+}
+.portfolio-box-part{
+width: 100%;
+float: left;
+}
+.portfolio-box{
+width: 50%;
+float: left;
+padding: 30px 0px;
+}
+.portfolio-box img{
+ width: 550px;
+height: 350px;
+}
+.portfolio-button a button {
+width: 25%;
+padding: 17px;
+margin-top: 50px;
+background-color: #17c2a4;
+color: #fff;
+font-size: 17px;
+font-weight: 400;
+border-radius: 3px;
+}
+.portfolio-button a button:hover {
+box-shadow: 2px 2px 5px #165045;
+}
+   
+   
+   
+
+#Testimonials{
+width: 100%;
+float: left;
+background-color: #d74680;
+color: #fff;
+text-align: center;
+}
+.Testimonials-box-part{
+width: 50%;
+float: left;
+padding: 30px 0px;
+text-align: left;
+margin-top: 40px;
+}
+.Test-B-P{
+   width: 100%;
+   float: left;
+   
+}
+.Test-B-P img{
+width: 40%;
+float: left;
+}
+.T-Box-W-part{
+ width: 60%;  
+ float: left;
+ margin:  20px 0px;
+}
+.T-Box-W-part p{
+ margin: 20px 0px; 
+}
+.Testimonials-title{
+font-size: 15px;
+font-weight: 400;
+color: #f4b592;
+padding: 10px ;
+}
+
+
+
+
+#Contact{
+width: 100%;
+float: left;
+background-color:#3c5499 ;
+color: #fff;
+text-align: center;
+}
+.Contact-writing{
+width:100% ;
+float: left;
+}
+.Contact-Form-Part{
+width: 100%;
+float: left;
+margin-top: 50px;
+}
+.Form-Row{
+width: 100%;
+float: left;
+}
+input::placeholder{
+   color:#fff
+}
+textarea::placeholder{
+   color: white;
+} 
+#F-name{
+   width: 50%;
+   background-color:#273a71 ;
+   padding: 10PX;
+   color: white;
+}
+.FORM-NAME{
+   width: 50%;
+   float: left;
+   padding: 10PX;
+   text-align: right;
+}
+#Email{
+width: 50%;
+background-color: #273a71;
+padding: 10px;
+color: white;
+}
+.FORM-EMAIL{
+   width: 50%;
+   float: left;
+   padding: 10PX;
+   text-align: start;
+}
+#Message{
+   width: 50%;
+   background-color: #273a71;
+   height: 200PX;
+   padding: 10PX;
+   color: white;
+}
+.FORM-MESSAGE{
+   width: 100%;
+   float: left;
+}
+.Form-Button{
+   background-color:#30bae7 ;
+   color: #fff;
+   padding: 17px;
+   width: 20%;
+   margin: 30px;
+   border-radius: 3px;
+   font-weight: 400;
+   font-size: 15px;
+}
+.Form-Button:hover{
+   box-shadow: 2px 2px 5px #165045;
+}
+
+
+#footer-sec{
+   width: 100%;
+   float: left;
+   background-color: #344b8e;
+   text-align: center;
+   padding: 10px;
+}
+.footer-part {
+   width: 100%;
+   float: left;
+   padding: 10px 0px;
+   
+   }
+   .footer-part li {
+   display: inline-block;
+   margin: 0px 10px;
+   padding: 7px;
+   border-radius: 5px;
+   }
+   .footer-part a:hover {
+   color: #3194c9;
+   }
+   .footer-part a {
+   font-size: 17px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color: white;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
